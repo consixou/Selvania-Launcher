@@ -1,15 +1,14 @@
 {
     "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.2.2",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "preductname": "Filo",
+    "version": "2.3.0",
+    "description": "Launcher Minecraft vanilla 1.21.10 pour le serveur Filo (filo.helloserv.net) — comptes premium uniquement",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Filo",
+        "url": "https://github.com/consixou"
     },
-    "url": "http://luuxcraft.fr/api/user/bb8f5247-1d38-41bb-ab6d-3200471a06b2",
+    "url": "https://raw.githubusercontent.com/consixou/Selvania-Launcher/master/docs",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
@@ -39,6 +38,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/consixou/Selvania-Launcher.git"
     }
 }

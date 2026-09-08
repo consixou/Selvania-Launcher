@@ -1,0 +1,31 @@
+{
+    "Filo": {
+        "name": "Filo",
+        "url": "",
+        "loader": {
+            "minecraft_version": "1.21.10",
+            "loader_type": "none",
+            "loader_version": "latest"
+        },
+        "verify": false,
+        "ignored": [
+            "logs",
+            "saves",
+            "options.txt",
+            "resourcepacks",
+            "shaderpacks",
+            "screenshots"
+        ],
+        "whitelistActive": false,
+        "whitelist": [],
+        "game_args": [
+            "--quickPlayMultiplayer",
+            "filo.helloserv.net:25565"
+        ],
+        "status": {
+            "nameServer": "Filo",
+            "ip": "filo.helloserv.net",
+            "port": 25565
+        }
+    }
+}
